@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- styles for all pages -->
+    <link rel="stylesheet" href="site.css" />
+    <!-- styles for this page -->
+    <link rel="stylesheet" href="contact.css" />
+</head>
+
+<body>
+    <header>
+        <span class="name">Juan Herrera</span>
+        <nav class="links">
+            <a href='index.html'>HOME</a>
+            <a href='about.html'>ABOUT</a>
+            <a href='portfolio.html'>PORTFOLIO</a>
+            <a class='active' href='contact.html'>CONTACT</A>
+        </nav>
+    </header>
+    <main>
+        <h1>Wanting to get in touch?</h1>
+        <section class="project">
+            <h2 class="project-name">
+                LET'S TALK 
+            </h2>
+            <form action="formsubmitted.html" method="POST" class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <input type="text" id="message" name="message" required>
+                <button type="submit" class="hover-element">Submit</button>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>

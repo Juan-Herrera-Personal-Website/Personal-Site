@@ -19,8 +19,8 @@ body {
 header {
   font-size: 2rem;
   position: fixed;
-  left: 79;
-  right:79;
+  left: 79px;
+  right: 79px;
   padding: .5em 1em; 
   box-shadow: 0 4px 4px -2px black;
   background-color: #333;
